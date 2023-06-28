@@ -1,7 +1,7 @@
 defmodule EllipticCurve.Utils.Integer do
   @moduledoc false
 
-  use Bitwise
+  import Bitwise
 
   def modulo(x, n) do
     rem(x, n)
